@@ -1,0 +1,4 @@
+namespace simple
+{
+    int simpleInt();
+}

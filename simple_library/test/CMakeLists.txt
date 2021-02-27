@@ -1,0 +1,3 @@
+add_executable(simple_lib_test simple_lib_test.cpp)
+
+target_link_libraries(simple_lib_test PRIVATE Catch2::Catch2WithMain simple_lib)

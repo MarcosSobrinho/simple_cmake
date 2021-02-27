@@ -1,0 +1,4 @@
+add_executable(simple_lib_exe simple_lib_exe.cpp)
+
+target_link_libraries(simple_lib_exe PRIVATE
+simple_lib)
